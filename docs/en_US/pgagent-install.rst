@@ -23,7 +23,8 @@ must have the pl/pgsql procedural language installed - PostgreSQL's
 'createlang' program can do this if required.
 
 Connect to the "postgres" database (once created if needed), and open the SQL tool.
-If the server 9.1 or later, simply paste in this query and click the 'Run' button:
+If the server is 9.1 or later, simply paste in this query and click the 'Run'
+button:
 
     CREATE EXTENSION pgagent;
 
